@@ -1,12 +1,12 @@
 print("Please entre your current earth weight: ")
-weight = input()
+weight = int(input())
 
 print("\nI have information for the following plantes: \n\n")
 print(" 1. Venus  2. Mars   3. Jupiter\n")
 print(" 4. Saturn 5. Uranus 6. Neptune\n")
 
 print("Which planet are you visiting? ")
-x = input()
+x = int(input())
 
 if (x == 1):
     weight *= 0.78
